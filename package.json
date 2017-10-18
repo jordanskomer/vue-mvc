@@ -4,7 +4,7 @@
   "description": "An opinionated framework for Vue",
   "main": "index.js",
   "scripts": {
-    "test": "yarn test"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,8 @@
   "homepage": "https://github.com/jordanskomer/vue-mvc#readme",
   "devDependencies": {
     "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
     "the-tailor": "^1.2.1",
     "vuex": "^3.0.0"
   },
