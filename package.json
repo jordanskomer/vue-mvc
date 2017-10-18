@@ -1,0 +1,31 @@
+{
+  "name": "vue-mvc",
+  "version": "1.0.0",
+  "description": "An opinionated framework for Vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordanskomer/vue-mvc.git"
+  },
+  "keywords": [
+    "Vuejs",
+    "Vue",
+    "Javascript"
+  ],
+  "author": "Evan Agee <evanagee@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jordanskomer/vue-mvc/issues"
+  },
+  "homepage": "https://github.com/jordanskomer/vue-mvc#readme",
+  "devDependencies": {
+    "the-tailor": "^1.2.1",
+    "vuex": "^3.0.0"
+  },
+  "dependencies": {
+    "vue": "^2.5.2"
+  }
+}
