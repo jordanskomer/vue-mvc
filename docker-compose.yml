@@ -1,0 +1,12 @@
+version: '3'
+services:
+  vue-mvc:
+    build: .
+    ports:
+      - 8000:8000
+    volumes:
+      - ./app:/vue-mvc/app
+      - ./config:/vue-mvc/config
+      - ./lib:/vue-mvc/lib
+      - ./test:/vue-mvc/test
+      - ./package.json:/vue-mvc/package.json
