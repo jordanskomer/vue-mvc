@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-const App = () => import(/* webpackChunkName: "home" */ 'views/App')
+const Home = () => import(/* webpackChunkName: "home" */ 'views/Home')
 const Another = () => import('views/Another')
 
 Vue.use(Router)
@@ -11,7 +11,7 @@ module.exports = new Router({
   routes: [
     {
       path: '/', 
-      component: App
+      component: Home
     },
     {
       path: '/another',

@@ -3,9 +3,13 @@ import router from 'config/grouter'
 import store from 'config/vuex'
 import filters from 'config/filters'
 
+import App from 'views/App'
+
 Vue.config.productionTip = false
-const app = new Vue({
+new Vue({
+  el: '#app',
   filters,
   router,
-  store
-}).$mount('#app')
+  store,
+  render: h => h(App)
+})

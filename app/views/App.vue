@@ -2,6 +2,7 @@
   <div>
     <header></header>
     {{ msg }}
+    <router-view></router-view>
   </div>
 </template>
 
